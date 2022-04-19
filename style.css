@@ -119,4 +119,33 @@ header {
     margin-top: 1%;
   }
 
+  .book {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between
+ } #input-form input[type="submit"] {
+    align-self: end;
+    padding: 5px 10px;
+  }  #input-form input[type="text"] {
+    width: 240px;
+    padding: 5px;
+    border: 3px solid;
+    border-radius: 3px;
+  }  button.remove-button {
+    padding: 5px 10px;
+  }  .remove-button,
+  #input-form input[type="submit"] {
+    transition: 300ms;
+    border: 3px solid;
+    border-radius: 3px;
+    box-shadow: 4px 4px 0 1px black;
+    background-color: whitesmoke;
+  }  .remove-button:hover,
+  #input-form input[type="submit"]:hover {
+    transform: scale(1.05);
+  } .empty-library{
+    margin: auto;
+    font-weight: 700;
+ }
+
  
