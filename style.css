@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #headline h1 {
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .book-title,
+  .book-author,
+  .remove-button {
+    margin: 8px;
+  }
+  
+  #add-book-form {
+    margin-top: 30px;
+  }
+  
+  #add-book-form input {
+    margin: 8px;
+  }
