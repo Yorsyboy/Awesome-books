@@ -96,7 +96,7 @@ const displayNewElement = (book) => {
 
   const removeButton = document.createElement('button');
   removeButton.classList.add('remove-button');
-  removeButton.textContent = 'Remove';
+  removeButton.textContent = 'Remove Book';
 
   bookDiv.innerHTML = `
   <div class="book-store">
