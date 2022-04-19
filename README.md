@@ -17,19 +17,23 @@ Open index.html in Chrome
 
 ## Authors
 
-## Author1
+## Author 1
 
 👤 **Toyosi Taiwo**
-
-- GitHub: [@Yorsyboy](https://github.com/Yorsyboy)
 
 - GitHub: [@Yorsyboy](https://github.com/Yorsyboy)
 - Twitter: [@tboytaiwo](https://twitter.com/Tboytaiwo)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/taiwo-toyosi)
 
 
-## Author2
-👤 **Author1**
+## Authors
+
+## Author 2
+
+👤 **Ayodele Adebisi**
+
+- GitHub: [@aeon9300](https://github.com/aeon9300)
+- Twitter: [@aeon9300](https://twitter.com/Tboytaiwo)
 
 ## 🤝 Contributing
 
