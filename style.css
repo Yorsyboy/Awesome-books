@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    margin: 10px 10%;
+}
+
+#navbar {
+    border: 3px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 30px;
+  }
+
+  #navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .line {
+    width: 3px;
+    height: 20px;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  #navbar a {
+    text-decoration: none;
+    color: black;
+  }
+
+  #awesome-books {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0 10%;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #add-book-form {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+
+  #books-list {
+    width: 100%;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid;
+    border-radius: 5px;
+    max-height: 50vh;
+    overflow-y: scroll;
+  }
+
+  #input-form {
+    height: 100vh;
+    display: none;
+    justify-content: center;
+  }
+
+  #contact-info {
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  #contact-info h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  
+  #contact-info ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px;
+    margin: 0 auto;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    border: 3px solid;
+    margin: 10px 10%;
+    padding: 10px;
+    height: 30px;
+    text-align: center;
+  }
+
+  .active {
+      color: #3057c2 !important;;
+  }
+
+  #current-date {
+    float: right;
+    margin-top: 1%;
+  }
+
+ .book {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between
+ }
+
+ #input-form input[type="text"] {
+    width: 240px;
+    padding: 5px;
+    border: 3px solid;
+    border-radius: 3px;
+  }
+
+ .remove-button, 
+ #input-form input[type="submit"] {
+    border: 3px solid;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: black;
+ }
+
+ .remove-button:hover {
+     background-color: whitesmoke;
+     color: black;
+ }
+
+ .empty-library{
+    margin: auto;
+    font-weight: 700;
+ }
