@@ -83,3 +83,29 @@ function displayNewElement(book) {
   });
 }
 
+// Add a new book to the list of books
+function addBook(book) {
+  if (!bookExists(book)) {
+    books.push(book);
+    displayNewElement(book);
+    updateLocalStorage();
+    return;
+  }
+  alert('The Book and Author exist');
+}
+
+// Display all books when the page is loaded
+books.forEach((book) => {
+  displayNewElement(book);
+});
+
+// Add Event Listener on Add Book button
+const addBookForm = document.getElementById('add-book-form');
+
+addBookForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+  addBook({
+    title: addBookForm.elements.title.value,
+    author: addBookForm.elements.author.value,
+  });
+});
