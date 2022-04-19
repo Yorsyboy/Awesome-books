@@ -33,7 +33,7 @@ Open index.html in Chrome
 👤 **Ayodele Adebisi**
 
 - GitHub: [@aeon9300](https://github.com/aeon9300)
-- Twitter: [@aeon9300](https://twitter.com/Tboytaiwo)
+- Twitter: [@aeon9300](https://twitter.com/)
 
 ## 🤝 Contributing
 
