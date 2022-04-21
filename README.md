@@ -49,5 +49,4 @@ Give a ⭐️ if you like this project!
 
 - Microverse
 - Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Inspiration etc.
