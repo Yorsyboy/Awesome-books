@@ -10,9 +10,6 @@
 The basic requirements for building the executable are:
 * A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge etc)
 
-### Run tests
-Open index.html in Chrome
-
 ## Authors
 
 ## Author 1
@@ -22,9 +19,6 @@ Open index.html in Chrome
 - GitHub: [@Yorsyboy](https://github.com/Yorsyboy)
 - Twitter: [@tboytaiwo](https://twitter.com/Tboytaiwo)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/taiwo-toyosi)
-
-
-## Authors
 
 ## Author 2
 
